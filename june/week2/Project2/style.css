@@ -1,0 +1,1122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #1c1c1e;
+  color: #e7e3e3;
+  overflow-x: hidden;
+}
+
+.top-banner {
+  background: #0f0f0f;
+  color: #f26e00;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 14px;
+}
+
+.navbar {
+  background: transparent;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 32px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 80px;
+}
+
+.nav-links li a,
+.login {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover,
+.login:hover {
+  color: #fff;
+}
+
+.auth-links {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.btn {
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007aff;
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #005fcc;
+}
+
+.btn-secondary {
+  background-color: #007fff;
+  color: #fff;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btn-secondary:hover {
+  background-color: #29099f;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+/* Set background image here */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('images/backgroundimg.jpg') no-repeat center center/cover;
+  z-index: -2;
+  opacity: 1;
+}
+
+/* Optional: add overlay */
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
+  z-index: -1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+.subtext {
+  margin-top: 16px;
+  color: #aaa;
+  font-size: 1rem;
+}
+
+.drag-text {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #888;
+  opacity: 0.9;
+  text-align: center;
+}
+/* Slide 2: Examples Section */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f11;
+  color: white;
+}
+
+.explore-section {
+  text-align: center;
+  padding: 80px 20px 40px;
+  
+}
+
+.explore-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.explore-section p {
+  color: #a0a0a0;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.card-slider {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #1c1c1e;
+  border-radius: 20px;
+  padding: 10px;
+  width: 160px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 16px;
+  display: block;
+}
+
+.card span {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.see-all {
+  margin-top: 40px;
+}
+
+.see-all button {
+  background-color: #2e2e30;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 24px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.see-all button:hover {
+  background-color: #444;
+}
+/* .........slide 3 */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f11;
+  color: white;
+}
+
+.companies-section {
+  background-color: #0f0f11;
+  padding: 60px 20px 40px;
+  text-align: center;
+}
+
+.companies-section h2 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+
+.companies-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.company-card {
+  background-color: #1a1a1c;
+  padding: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.company-card img {
+  max-height: 50px;
+  max-width: 120px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+
+/* Responsive layout */
+@media (max-width: 1024px) {
+  .companies-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .companies-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .company-card {
+    font-size: 18px;
+    height: 120px;
+  }
+
+  .companies-section h2 {
+    font-size: 28px;
+  }
+}
+/* ..................slide 4............... */
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d0d0d;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Hero Section */
+.hero0 {
+  padding: 80px 20px 40px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.hero0 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero0 p {
+  font-size: 1.25rem;
+  color: #ccc;
+  max-width: 800px;
+  margin: 0 auto;
+  
+}
+
+/* Video Section */
+.video-section {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.video-section video {
+  width: 90%;
+  max-width: 1200px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+}
+/* ............................sec5............ */
+body {
+  margin: 0;
+  background-color: #0f0f11;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
+.feature-section {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.feature-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  
+}
+
+.feature-section p {
+  color: #aaa;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.feature-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.feature-box {
+  background: #1d1d20;
+  border-radius: 16px;
+  width: 500px;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: scale(1.03);
+}
+
+.feature-box img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.feature-box h4 {
+  font-size: 1rem;
+  color: #9f9fff;
+  margin: 0;
+
+}
+
+.feature-box h3 {
+  font-size: 1.4rem;
+  margin: 10px 0;
+}
+
+.feature-box p {
+  color: #bbb;
+  font-size: 1rem;
+  text-align: center;
+}
+/* .................................sec 6.................. */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f0f0f;
+  color: white;
+  padding: 50px 20px;
+}
+
+.more-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.more-heading {
+  font-size: 2.2rem;
+  margin-bottom: 0.5em;
+}
+
+.more-subheading {
+  font-size: 1.1rem;
+  color: #cccccc;
+  margin-bottom: 2.5em;
+}
+
+.more-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.more-card {
+  background: #1e1e1e;
+  border-radius: 16px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.more-card:hover {
+  transform: translateY(-5px);
+}
+
+.more-icon {
+  font-size: 2.5rem;
+  color: #00bfff;
+  margin-bottom: 20px;
+}
+
+.more-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.more-card p {
+  font-size: 0.9rem;
+  color: #bbbbbb;
+}body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f0f0f;
+  color: white;
+  padding: 50px 20px;
+}
+
+.more-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.more-heading {
+  font-size: 2.5rem;
+  margin-bottom: 0.3em;
+}
+
+.more-subheading {
+  font-size: 1.2rem;
+  color: #cccccc;
+  margin-bottom: 3em;
+}
+
+.more-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.more-card {
+  background: #1b1b1b;
+  border-radius: 20px;
+  padding: 30px 25px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.more-card:hover {
+  transform: translateY(-6px);
+}
+
+.icon-wrapper {
+  background-color: #2a2a2a;
+  border-radius: 12px;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-wrapper img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  filter: brightness(1.8);
+}
+
+.more-card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.more-card p {
+  font-size: 0.9rem;
+  color: #bbbbbb;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .more-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .more-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* ..................slide 7............... */
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d0d0d;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Hero1 Section */
+.hero {
+  padding: 80px 20px 40px;
+  text-align: center;
+  
+}
+
+.hero1 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.hero1 p {
+  font-size: 1.25rem;
+  color: #ccc;
+  max-width: 800px;
+  margin: 0 auto;
+  
+}
+
+/* Video Section */
+.video-section {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+  margin-top: 100px;
+}
+
+.video-section video {
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+}
+/* ..................slide 8............... */
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d0d0d;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Hero2 Section */
+.hero {
+  padding: 80px 20px 40px;
+  text-align: center;
+  
+}
+
+.hero2 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.hero2 p {
+  font-size: 1.25rem;
+  color: #ccc;
+  max-width: 800px;
+  margin: 0 auto;
+  
+}
+
+/* image Section */
+.img-section {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+  margin-top: 100px;
+}
+
+.img-section img {
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+}body {
+  margin: 0;
+  padding: 0;
+  background-color: #0a0a0a;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.button-card {
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  width: 120px;
+}
+
+.button-card:hover {
+  background-color: #2a2a2a;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
+}
+
+.button-card img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.button-card span {
+  display: block;
+  font-size: 14px;
+  margin-top: 5px;
+}
+/* ......................................section 9...................... */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0e0e11;
+  color: white;
+}
+
+.visionos {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.content h1 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 20px;
+  color: #a0a0a0;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #2b2b2f;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #3c3c41;
+}
+
+.video-preview {
+  margin-top: 50px;
+  padding: 0 40px; /* gap on left and right */
+  display: flex;
+  justify-content: center;
+}
+
+.video-preview video {
+  width: 100%;
+  max-width: 1100px; /* control max width */
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+/* ................................section 10............................. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0e0e11;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.download-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.download-section h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.download-section p {
+  color: #a0a0a0;
+  font-size: 18px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.download-section .highlight {
+  font-weight: 600;
+  color: #a0a0a0;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: #1a1a1d;
+  width: 160px;
+  height: 160px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ccc;
+  font-size: 16px;
+  transition: background 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.card .icon {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card.active {
+  background-color: #007aff;
+  color: white;
+}
+
+.card.active .icon {
+  color: white;
+}
+/* .....................................section 11............................ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0e0e11;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.testimonials-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.testimonials-section h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.testimonials-section .subtitle {
+  color: #a0a0a0;
+  font-size: 18px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background-color: #1a1a1d;
+  border-radius: 16px;
+  padding: 30px 25px;
+  width: 320px;
+  text-align: left;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.testimonial-card .quote {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile p {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.profile span {
+  font-size: 13px;
+  color: #a0a0a0;
+}
+/* ...................................section 12................................ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0e0e11;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.contact-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.contact-section h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.contact-section h2 span {
+  font-weight: 500;
+}
+
+.contact-section .subtext {
+  font-size: 18px;
+  color: #a0a0a0;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #1a1a1d;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 999px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #2c2c2f;
+}
+
+.email-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.email-card {
+  background-color: #1a1a1d;
+  padding: 20px 30px;
+  border-radius: 16px;
+  font-size: 16px;
+  line-height: 1.6;
+  min-width: 250px;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.social-card {
+  background-color: #1a1a1d;
+  padding: 14px 20px;
+  border-radius: 12px;
+  font-size: 15px;
+  min-width: 140px;
+  text-align: center;
+  color: #d0d0d0;
+  transition: background-color 0.3s ease;
+}
+
+.social-card:hover {
+  background-color: #2c2c2f;
+}
+/* ...................................section 13............................ */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0e0e11;
+  color: #fff;
+}
+
+.footer {
+  padding: 60px 80px 30px;
+  background-color: #0e0e11;
+  border-top: 1px solid #1f1f1f;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.footer-logo img {
+  width: 50px;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  gap: 60px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  min-width: 180px;
+}
+
+.footer-column h4 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #aaa;
+  line-height: 1.6;
+  text-align: left;
+  cursor: pointer;
+}
+
+.footer-column li:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #1f1f1f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+}
+
+.footer-icons img {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  filter: brightness(0.6);
+  transition: filter 0.3s ease;
+}
+
+.footer-icons img:hover {
+  filter: brightness(1);
+}

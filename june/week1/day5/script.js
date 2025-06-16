@@ -18,7 +18,7 @@
 
 
 // let nameOfStudent="ankita";
-// console.log(nameOfStuden)
+// console.log(nameOfStudent)
 
 // let a=20;
 // console.log(a)
@@ -168,5 +168,13 @@
 //block access: Not
 //function access:access
 
+
+let sum=0;
+let n=25;
+for(let i=1;i<=n;i++){
+    sum=sum+i;
+
+}
+console.log("sum=,"sum);
 
 

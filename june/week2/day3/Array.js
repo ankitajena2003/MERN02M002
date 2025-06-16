@@ -64,7 +64,7 @@ console.log(sum/(numArr.length));//Average calculate
 //METHODS
 let arr2=[1,2,3,4,5];
 let arr3=[6,7,8,9,10];
-arr2.push(6,7,"anki",true);
+arr2.push(6,7,"anki",true);//push add element from last
 console.log(arr2);
 
 arr2.pop(); //it remove last element
@@ -101,6 +101,7 @@ arr4.splice(1,1,"Ola");
 console.log(arr4);
 arr4.push("Amazon");
 console.log(arr4);
+
 
 
 

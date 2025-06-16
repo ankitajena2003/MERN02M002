@@ -106,8 +106,8 @@ for(let idx in arr){
     console.log(arr[idx])
 }
 
-console.log("for-of loop")
-//for-of
+console.log("for-of loop")//used in array and string
+//for-of(only gives value of index)
 for(const e of arr){
     console.log(e)//.....................................doubt
 }
